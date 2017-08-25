@@ -1,0 +1,1313 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" ng-app="myApp">
+        <title>Faveo | HELP DESK</title>
+        <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+        <meta name="_token" content="5ZoPuolDNMs5dKS1hRUEjCN1WugV2erCPQxFSqc2"/>
+        <!-- faveo favicon -->
+        <link href="http://www.faveohelpdesk.com/demo/servicedesk/public/lb-faveo/media/images/favicon.ico" rel="shortcut icon">
+        <!-- Bootstrap 3.3.2 -->
+        <link href="http://www.faveohelpdesk.com/demo/servicedesk/public/lb-faveo/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <!-- Font Awesome Icons -->
+        <link href="http://www.faveohelpdesk.com/demo/servicedesk/public/lb-faveo/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <!-- Ionicons -->
+        <link href="http://www.faveohelpdesk.com/demo/servicedesk/public/lb-faveo/css/ionicons.min.css" rel="stylesheet"  type="text/css" />
+        <!-- Theme style -->
+        <link href="http://www.faveohelpdesk.com/demo/servicedesk/public/lb-faveo/css/AdminLTE.css" rel="stylesheet" type="text/css" />
+        <!-- AdminLTE Skins. Choose a skin from the css/skins folder instead of downloading all of them to reduce the load. -->
+        <link href="http://www.faveohelpdesk.com/demo/servicedesk/public/lb-faveo/css/skins/_all-skins.min.css" rel="stylesheet" type="text/css" />
+        <!-- iCheck -->
+        <link href="http://www.faveohelpdesk.com/demo/servicedesk/public/lb-faveo/plugins/iCheck/flat/blue.css" rel="stylesheet" type="text/css" />
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <link href="http://www.faveohelpdesk.com/demo/servicedesk/public/lb-faveo/css/tabby.css" rel="stylesheet" type="text/css"/>
+        
+        <link href="http://www.faveohelpdesk.com/demo/servicedesk/public/lb-faveo/css/jquerysctipttop.css" rel="stylesheet" type="text/css"/>
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+
+        <link href="http://www.faveohelpdesk.com/demo/servicedesk/public/lb-faveo/css/editor.css" rel="stylesheet" type="text/css"/>
+
+        <link href="http://www.faveohelpdesk.com/demo/servicedesk/public/lb-faveo/css/jquery.ui.css" rel="stylesheet" rel="stylesheet"/>
+        
+        <link href="http://www.faveohelpdesk.com/demo/servicedesk/public/lb-faveo/plugins/datatables/dataTables.bootstrap.css" rel="stylesheet"  type="text/css"/>
+        
+        <link href="http://www.faveohelpdesk.com/demo/servicedesk/public/lb-faveo/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" rel="stylesheet" type="text/css"/>
+
+        <link href="http://www.faveohelpdesk.com/demo/servicedesk/public/lb-faveo/css/faveo-css.css" rel="stylesheet" type="text/css" />
+        
+        <link href="http://www.faveohelpdesk.com/demo/servicedesk/public/lb-faveo/css/notification-style.css" rel="stylesheet" type="text/css" >
+        
+        <link href="http://www.faveohelpdesk.com/demo/servicedesk/public/lb-faveo/css/jquery.rating.css" rel="stylesheet" type="text/css" />
+        <!-- Select2 -->
+        <link href="http://www.faveohelpdesk.com/demo/servicedesk/public/lb-faveo/plugins/select2/select2.min.css" rel="stylesheet" type="text/css" />
+        <!-- autocomplete -->
+        <link href="http://www.faveohelpdesk.com/demo/servicedesk/public/lb-faveo/css/autocomplete.css" rel="stylesheet" type="text/css" />
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+        <script src="http://www.faveohelpdesk.com/demo/servicedesk/public/lb-faveo/js/jquery-2.1.4.js" type="text/javascript"></script>
+        
+        <script src="http://www.faveohelpdesk.com/demo/servicedesk/public/lb-faveo/js/jquery2.1.1.min.js" type="text/javascript"></script>
+
+            </head>
+    <body class="skin-blue fixed">
+        <div class="wrapper">
+            <header class="main-header">
+                <a href="http://www.faveohelpdesk.com" class="logo"><img src="http://www.faveohelpdesk.com/demo/servicedesk/public/lb-faveo/media/images/logo.png" width="100px;"></a>
+                
+                <!-- Header Navbar: style can be found in header.less -->
+                <nav class="navbar navbar-static-top">
+                    <!-- Sidebar toggle button-->
+                    <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                                        <div class="collapse navbar-collapse" id="navbar-collapse">
+                                                    <ul class="nav navbar-nav navbar-left"> 
+    <li class="">
+        <a href="http://www.faveohelpdesk.com/demo/servicedesk/public/service-desk/problems">
+            <i class="fa fa-bug"></i> 
+            <span style="">Problems</span> 
+        </a>
+    </li> 
+    <li>
+        <a href="http://www.faveohelpdesk.com/demo/servicedesk/public/service-desk/changes">
+            <i class="fa fa-refresh"></i> 
+            <span style="">Changes</span> 
+        </a>
+
+
+
+    </li> 
+
+    <li>
+        <a href="http://www.faveohelpdesk.com/demo/servicedesk/public/service-desk/releases">
+            <i class="fa fa-newspaper-o"></i> 
+            <span style="">Releases</span> 
+        </a>
+
+
+
+
+    </li> 
+
+
+    <li>
+
+        <a href="http://www.faveohelpdesk.com/demo/servicedesk/public/service-desk/assets">
+            <i class="fa fa-server"></i> 
+            <span style=""> Assets</span> 
+        </a>
+
+    </li>
+
+<!--    <li>
+        <a href="http://www.faveohelpdesk.com/demo/servicedesk/public/service-desk/contracts">
+            <i class="fa fa-paperclip"></i> 
+            <span style=""> Contracts</span> 
+        </a>
+
+
+    </li>-->
+    <li class="hidden-xs dropdown" id="newdiv">
+        <a class="dropdown-toggle" data-toggle="dropdown" title="New">
+            <i class="glyphicon glyphicon-plus" style="font-size:10px;"></i> New<span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu">
+
+            <li>
+                <a href="http://www.faveohelpdesk.com/demo/servicedesk/public/service-desk/problem/create">Problems</a>
+            </li>
+            <li>
+                <a href="http://www.faveohelpdesk.com/demo/servicedesk/public/service-desk/changes/create">Changes</a>
+            </li>
+            <li>
+                <a href="http://www.faveohelpdesk.com/demo/servicedesk/public/service-desk/releases/create">Releases</a>
+            </li>
+            <li>
+                <a href="http://www.faveohelpdesk.com/demo/servicedesk/public/service-desk/assets/create">Assets</a>
+            </li>
+<!--            <li>
+                <a href="http://www.faveohelpdesk.com/demo/servicedesk/public/service-desk/contracts/create">Contracts</a>
+            </li>-->
+
+        </ul>
+    </li>
+</ul>                                                                            <ul class="nav navbar-nav navbar-right">
+                                                        <li><a href="http://www.faveohelpdesk.com/demo/servicedesk/public/admin">Admin Panel</a></li>
+                            <li class="dropdown notifications-menu">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+        <i class="fa fa-refresh"></i>
+        <span class="label label-danger" id="count">0</span>
+    </a>
+    <ul class="dropdown-menu" style="width:500px">
+        
+        <li class="header">You have 0 update(s).</li>
+
+        <ul class="menu list-unstyled">
+            
+        </ul>
+    </ul>
+</li>                                                        <!-- User Account: style can be found in dropdown.less -->
+                            <li class="dropdown notifications-menu" id="myDropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" onclick="myFunction()">
+                                    <i class="fa fa-bell-o"></i>
+                                    <span class="label label-danger" id="count">121</span>
+                                </a>
+                                <ul class="dropdown-menu" style="width:500px">
+
+                                    <div id="alert11" class="alert alert-success alert-dismissable" style="display:none;">
+                                        <button id="dismiss11" type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                                        <h4><i class="icon fa fa-check"></i>Alert!</h4>
+                                        <div id="message-success1"></div>
+                                    </div>
+
+                                    <li id="refreshNote">
+
+                                    <li class="header">You have 121 notifications. <a class="pull-right" id="read-all" href="#">Mark all as read.</a></li>
+
+                                    <ul class="menu">
+                                                                                                                        
+                                                <li style="list-style: none;margin-left: -30px"><span>&nbsp<img src="https://secure.gravatar.com/avatar/671961a5f356126c01f13a8cc9b12367?s=80&amp;r=g&amp;d=identicon" class="img-circle"  style="width:6%;height: 5%" alt="User Image" />
+                                                <a href="http://www.faveohelpdesk.com/demo/servicedesk/public/thread/2" id='3' class='noti_User'>
+                                                    A new ticket has been created with id "AAAC-0002-0000002"
+                                                </a></span>
+                                        </li>
+                                                                                                                                                                                                        
+                                                <li style="list-style: none;margin-left: -30px"><span>&nbsp<img src="https://secure.gravatar.com/avatar/671961a5f356126c01f13a8cc9b12367?s=80&amp;r=g&amp;d=identicon" class="img-circle"  style="width:6%;height: 5%" alt="User Image" />
+
+                                                <a href="http://www.faveohelpdesk.com/demo/servicedesk/public/thread/2" id='5' class='noti_User'>
+                                                    You have a new reply on this ticket with id "AAAC-0002-0000002"
+                                                </a></span>
+                                        </li>
+                                                                                                                                                                                                        
+                                                <li style="list-style: none;margin-left: -30px"><span>&nbsp<img src="https://secure.gravatar.com/avatar/671961a5f356126c01f13a8cc9b12367?s=80&amp;r=g&amp;d=identicon" class="img-circle"  style="width:6%;height: 5%" alt="User Image" />
+                                                <a href="http://www.faveohelpdesk.com/demo/servicedesk/public/thread/2" id='6' class='noti_User'>
+                                                    You have a new reply on this ticket with id "AAAC-0002-0000002"
+                                                </a></span>
+                                        </li>
+                                                                                                                                                                                                        
+                                                <li style="list-style: none;margin-left: -30px"><span>&nbsp<img src="https://secure.gravatar.com/avatar/671961a5f356126c01f13a8cc9b12367?s=80&amp;r=g&amp;d=identicon" class="img-circle"  style="width:6%;height: 5%" alt="User Image" />
+                                                <a href="http://www.faveohelpdesk.com/demo/servicedesk/public/thread/3" id='8' class='noti_User'>
+                                                    A new ticket has been created with id "AAAD-0003-0000003"
+                                                </a></span>
+                                        </li>
+                                                                                                                                                                                                        
+                                                <li style="list-style: none;margin-left: -30px"><span>&nbsp<img src="https://secure.gravatar.com/avatar/671961a5f356126c01f13a8cc9b12367?s=80&amp;r=g&amp;d=identicon" class="img-circle"  style="width:6%;height: 5%" alt="User Image" />
+                                                <a href="http://www.faveohelpdesk.com/demo/servicedesk/public/thread/3" id='9' class='noti_User'>
+                                                    You have a new reply on this ticket with id "AAAD-0003-0000003"
+                                                </a></span>
+                                        </li>
+                                                                                                                                                                                                        
+                                            <li style="list-style: none;margin-left: -30px"><span>&nbsp<img src="https://secure.gravatar.com/avatar/671961a5f356126c01f13a8cc9b12367?s=80&amp;r=g&amp;d=identicon" class="img-circle"  style="width:6%;height: 5%" alt="User Image" />
+                                                <a href="http://www.faveohelpdesk.com/demo/servicedesk/public/thread/4" id='10' class='noti_User'>
+                                                    A new ticket has been created with id "AAAE-0004-0000004"
+                                                </a></span>
+                                        </li>
+                                                                                                                                                                                                        
+                                                                                                                        <li style="list-style: none;margin-left: -30px"><span>&nbsp<img src="https://secure.gravatar.com/avatar/671961a5f356126c01f13a8cc9b12367?s=80&amp;r=g&amp;d=identicon" class="img-circle"  style="width:6%;height: 5%" alt="User Image" />
+                                                <a href="http://www.faveohelpdesk.com/demo/servicedesk/public/thread/5" id='11' class='noti_User'>
+                                                    A new ticket has been created with id "AAAF-0005-0000005"
+                                                </a></span>
+                                        </li>
+                                                                                                                                                                                                        
+                                                                                                                        <li style="list-style: none;margin-left: -30px"><span>&nbsp<img src="https://secure.gravatar.com/avatar/671961a5f356126c01f13a8cc9b12367?s=80&amp;r=g&amp;d=identicon" class="img-circle"  style="width:6%;height: 5%" alt="User Image" />
+                                                <a href="http://www.faveohelpdesk.com/demo/servicedesk/public/thread/6" id='12' class='noti_User'>
+                                                    A new ticket has been created with id "AAAG-0006-0000006"
+                                                </a></span>
+                                        </li>
+                                                                                                                                                                                                        
+                                                                                                                        <li style="list-style: none;margin-left: -30px"><span>&nbsp<img src="https://secure.gravatar.com/avatar/671961a5f356126c01f13a8cc9b12367?s=80&amp;r=g&amp;d=identicon" class="img-circle"  style="width:6%;height: 5%" alt="User Image" />
+                                                <a href="http://www.faveohelpdesk.com/demo/servicedesk/public/thread/5" id='13' class='noti_User'>
+                                                    You have a new reply on this ticket with id "AAAF-0005-0000005"
+                                                </a></span>
+                                        </li>
+                                                                                                                                                                                                        
+                                                                                                                        <li style="list-style: none;margin-left: -30px"><span>&nbsp<img src="https://secure.gravatar.com/avatar/671961a5f356126c01f13a8cc9b12367?s=80&amp;r=g&amp;d=identicon" class="img-circle"  style="width:6%;height: 5%" alt="User Image" />
+                                                <a href="http://www.faveohelpdesk.com/demo/servicedesk/public/thread/7" id='14' class='noti_User'>
+                                                    A new ticket has been created with id "AAAH-0007-0000007"
+                                                </a></span>
+                                        </li>
+                                                                                                                                                            </ul>
+                            </li>
+                            <li class="footer no-border"><div class="col-md-5"></div><div class="col-md-2">
+                                    <img src="http://www.faveohelpdesk.com/demo/servicedesk/public/lb-faveo/media/images/gifloader.gif" style="display: none;" id="notification-loader">
+                                </div><div class="col-md-5"></div></li>
+                            <li class="footer"><a href="http://www.faveohelpdesk.com/demo/servicedesk/public/notifications-list">View all</a>
+                            </li>
+                        </ul>
+                        </li>
+                        <!-- User Account: style can be found in dropdown.less -->
+                        <li class="dropdown user user-menu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                                                <img src="https://secure.gravatar.com/avatar/671961a5f356126c01f13a8cc9b12367?s=80&amp;r=g&amp;d=identicon"class="user-image" alt="User Image"/>
+                                <span class="hidden-xs">demo admin</span>
+                                                            </a>
+                            <ul class="dropdown-menu">
+                                <!-- User image -->
+                                <li class="user-header"  style="background-color:#343F44;">
+                                    <img src="https://secure.gravatar.com/avatar/671961a5f356126c01f13a8cc9b12367?s=80&amp;r=g&amp;d=identicon" class="img-circle" alt="User Image" />
+                                    <p>
+                                        demo admin - admin
+                                        <small></small>
+                                    </p>
+                                </li>
+                                <!-- Menu Footer-->
+                                <li class="user-footer" style="background-color:#1a2226;">
+                                    <div class="pull-left">
+                                        <a href="http://www.faveohelpdesk.com/demo/servicedesk/public/profile" class="btn btn-info btn-sm"><b>Profile</b></a>
+                                    </div>
+                                    <div class="pull-right">
+                                        <a href="http://www.faveohelpdesk.com/demo/servicedesk/public/auth/logout" class="btn btn-danger btn-sm"><b>Sign Out</b></a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+            <!-- Left side column. contains the logo and sidebar -->
+            <aside class="main-sidebar">
+                <!-- sidebar: style can be found in sidebar.less -->
+                <section class="sidebar">
+                    <div class="user-panel">
+                                                <div class = "row">
+                            <div class="col-xs-3"></div>
+                            <div class="col-xs-2" style="width:50%;">
+                                <a href="http://www.faveohelpdesk.com/demo/servicedesk/public/profile">
+
+                                    <img src="https://secure.gravatar.com/avatar/671961a5f356126c01f13a8cc9b12367?s=80&amp;r=g&amp;d=identicon" class="img-circle" alt="User Image" />
+
+                                </a>
+                            </div>
+                        </div>
+                                                <div class="info" style="text-align:center;">
+                                                        <p>demo admin</p>
+                                                                                    <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+                                                    </div>
+                    </div>
+                    <!-- search form -->
+                                                                                                                                                                                    <!-- /.search form -->
+                    <!-- sidebar menu: : style can be found in sidebar.less -->
+                    <ul id="side-bar" class="sidebar-menu">
+                        <li class="treeview">
+    <a href="http://www.faveohelpdesk.com/demo/servicedesk/public/dashboard">
+        <i class="fa fa-dashboard"></i> 
+        <span style="margin-left:-2%;">Dashboard</span> 
+    </a>
+</li>
+<li class="treeview ">
+    <a href="#">
+        <i class="fa fa-user"></i> <span>Tickets</span> <i class="fa fa-angle-left pull-right"></i>
+    </a>
+    <ul class="treeview-menu " >
+        <li><a href="http://www.faveohelpdesk.com/demo/servicedesk/public/ticket/inbox"><i class="fa fa-circle-o"></i>Inbox</a></li>
+        <li><a href="http://www.faveohelpdesk.com/demo/servicedesk/public/ticket/open"><i class="fa fa-circle-o"></i> open</a></li>
+        <li><a href="http://www.faveohelpdesk.com/demo/servicedesk/public/ticket/answered"><i class="fa fa-circle-o"></i>Answered</a></li>
+        <li><a href="http://www.faveohelpdesk.com/demo/servicedesk/public/ticket/myticket"><i class="fa fa-circle-o"></i>My Tickets </a></li>
+        <li><a href="http://www.faveohelpdesk.com/demo/servicedesk/public/ticket/assigned"><i class="fa fa-circle-o"></i>Assigned </a></li>
+        <li><a href="http://www.faveohelpdesk.com/demo/servicedesk/public/ticket/closed"><i class="fa fa-circle-o"></i>Closed </a></li>
+        <li><a href="http://www.faveohelpdesk.com/demo/servicedesk/public/newticket"><i class="fa fa-circle-o"></i>Create Ticket</a></li>
+    </ul>
+</li>
+<li class="treeview">
+    <a href="#">
+        <i class="fa fa-users"></i> <span>	Users</span> <i class="fa fa-angle-left pull-right"></i>
+    </a>
+    <ul class="treeview-menu">
+        <li><a href="http://www.faveohelpdesk.com/demo/servicedesk/public/user"><i class="fa fa-circle-o"></i> User Directory</a></li>
+        <li class=""><a href="http://www.faveohelpdesk.com/demo/servicedesk/public/organizations"><i class="fa fa-circle-o"></i>Organization</a></li>
+        <li class=""><a href="http://www.faveohelpdesk.com/demo/servicedesk/public/user-export"><i class="fa fa-circle-o"></i>Export Users</a></li>
+    </ul>
+</li>
+
+
+
+
+
+<li class="treeview">
+    <a href="#">
+        <i class="fa fa-wrench"></i> <span>	Tools</span> <i class="fa fa-angle-left pull-right"></i>
+    </a>
+    <ul class="treeview-menu ">
+        <li><a href="http://www.faveohelpdesk.com/demo/servicedesk/public/canned/list"><i class="fa fa-circle-o"></i> Canned Response</a></li>
+        <li class=""><a href="http://www.faveohelpdesk.com/demo/servicedesk/public/comment"><i class="fa fa-circle-o"></i>Knowledge Base</a></li>
+    </ul>
+</li>
+
+
+
+<li class="treeview">
+    <a href="#">
+        <i class="fa fa-bug"></i> <span>Problems</span> <i class="fa fa-angle-left pull-right"></i>
+    </a>
+    <ul class="treeview-menu">
+        <li><a href="http://www.faveohelpdesk.com/demo/servicedesk/public/service-desk/problems"><i class="fa fa-circle-o"></i> All Problem</a></li>
+        <li class=""><a href="http://www.faveohelpdesk.com/demo/servicedesk/public/service-desk/problem/create"><i class="fa fa-circle-o"></i>New Problem </a></li>
+
+    </ul>
+</li>
+
+<li class="treeview">
+    <a href="#">
+        <i class="fa fa-refresh"></i> <span>Changes</span> <i class="fa fa-angle-left pull-right"></i>
+    </a>
+    <ul class="treeview-menu">
+        <li><a href="http://www.faveohelpdesk.com/demo/servicedesk/public/service-desk/changes"><i class="fa fa-circle-o"></i> All Changes</a></li>
+        <li class=""><a href="http://www.faveohelpdesk.com/demo/servicedesk/public/service-desk/changes/create"><i class="fa fa-circle-o"></i>New Changes </a></li>
+
+    </ul>
+</li>
+
+<li class="treeview">
+    <a href="#">
+        <i class="fa fa-newspaper-o"></i> <span>Releases</span> <i class="fa fa-angle-left pull-right"></i>
+    </a>
+    <ul class="treeview-menu">
+        <li><a href="http://www.faveohelpdesk.com/demo/servicedesk/public/service-desk/releases"><i class="fa fa-circle-o"></i> All Releases</a></li>
+        <li class=""><a href="http://www.faveohelpdesk.com/demo/servicedesk/public/service-desk/releases/create"><i class="fa fa-circle-o"></i>New Releases </a></li>
+
+    </ul>
+</li>
+<li class="treeview">
+    <a href="#">
+        <i class="fa fa-server"></i> <span>Assets</span> <i class="fa fa-angle-left pull-right"></i>
+    </a>
+    <ul class="treeview-menu">
+        <li><a href="http://www.faveohelpdesk.com/demo/servicedesk/public/service-desk/assets"><i class="fa fa-circle-o"></i> All Assets</a></li>
+        <li class=""><a href="http://www.faveohelpdesk.com/demo/servicedesk/public/service-desk/assets/create"><i class="fa fa-circle-o"></i>New Assets </a></li>
+        <li><a href="http://www.faveohelpdesk.com/demo/servicedesk/public/service-desk/assets/export"><i class="fa fa-circle-o"></i> Export Assets</a></li>
+        
+    </ul>
+</li>
+
+
+                    </ul>
+                </section>
+                <!-- /.sidebar -->
+            </aside>
+                        <!-- Right side column. Contains the navbar and content of the page -->
+            <div class="content-wrapper">
+                <!-- Content Header (Page header) -->
+                <div class="tab-content" style="background-color: white;padding: 0 20px 0 20px">
+                    <div class="collapse navbar-collapse" id="navbar-collapse">
+                        <div class="tabs-content">
+                                                    </div>
+                    </div>
+                </div>
+                <section class="content-header">
+                    <!--<div class="row">-->
+                    <!--<div class="col-md-6">-->
+                                        <!--</div>-->
+                    <!--<div class="pull-right">-->
+                    <ol class="breadcrumb breadcrumb-custom">
+    <li class="text"> You are here :</li>
+            <li><a href="http://www.faveohelpdesk.com/demo/servicedesk/public/dashboard">Dashboard</a></li>
+                <li><a href="http://www.faveohelpdesk.com/demo/servicedesk/public/service-desk/problems">Problem</a></li>
+                <li class="text">Show</li>
+        </ol>
+
+                    <!--</div>-->
+                    <!--</div>-->
+                </section>
+                <!-- Main content -->
+                <section class="content">
+                    <section class="content-header">
+    
+</section>
+<div class="box box-primary">
+    <div class="box-header">
+        <h3 class="box-title">
+            Qwertyui  
+
+        </h3>
+        <div class="pull-right">
+            <!-- <button type="button" class="btn btn-default"><i class="fa fa-edit" style="color:green;"> </i> Edit</button> -->
+
+            <div class="btn-group">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" ><i class="fa fa-spinner fa-spin" style="color:teal; display:none;" id="spin"></i>
+                    Update <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="#rootcause"  data-toggle="modal" data-target="#rootcause5">Root Cause</a></li>
+                    <li><a href="#impact"  data-toggle="modal" data-target="#impact5">Impact</a></li>
+                    <li><a href="#symptoms" data-toggle="modal" data-target="#symptoms5">Symptoms</a></li>
+                    <li><a href="#solution" data-toggle="modal" data-target="#solution5">Solution</a></li>
+                </ul>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" ><i class="fa fa-spinner fa-spin" style="color:teal; display:none;" id="spin"></i>
+                    Change <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                     
+                    <li><a href="#change-detach"  data-toggle="modal" data-target="#change-detach5">Deatach test3</a></li>
+                                    </ul>
+            </div>
+
+
+            <div class="btn-group">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" ><i class="fa fa-spinner fa-spin" style="color:teal; display:none;" ></i>
+
+                    More <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="http://www.faveohelpdesk.com/demo/servicedesk/public/service-desk/problem/5/edit">Edit</a></li>
+                    <li><a href="#delete" data-toggle="modal" data-target="#delete5">Delete</a></li>
+                                        <li><a href="http://www.faveohelpdesk.com/demo/servicedesk/public/service-desk/problem/5/close">Close </a></li>
+                    
+                </ul>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- ticket details Table -->
+    <div class="box-body">
+        <div class="row">
+            <div class="col-md-12">
+                
+<!-- fail message -->
+                                
+<div class="modal fade" id="rootcause5">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Root Cause</h4>
+                <form method="POST" action="http://www.faveohelpdesk.com/demo/servicedesk/public/service-desk/general/5/sd_problem" accept-charset="UTF-8" enctype="multipart/form-data"><input name="_token" type="hidden" value="5ZoPuolDNMs5dKS1hRUEjCN1WugV2erCPQxFSqc2">
+            </div>
+            <div class="modal-body">
+                <!-- Form  -->
+                <div class="row">
+                    <div class="col-md-12">
+                       <label for="root-cause">Root Cause</label>
+                       <textarea class="form-control" id="root-cause" name="root-cause" cols="50" rows="10">This is the root cause</textarea>
+                       <input name="identifier" type="hidden" value="root-cause">
+                    </div>
+                    <div class="col-md-12">
+                       <label for="attachment">Attachment</label>
+                       <input class="file" name="attachment[]" type="file">
+                    </div>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="close" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+                <input type="submit" class="btn btn-primary" value="Save">
+                </form>
+            </div>
+            <!-- /Form -->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<script type="text/javascript">
+    $(function () {
+        $("#root-cause").wysihtml5();
+    });
+</script>                
+
+<div class="modal fade" id="impact5">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Impact</h4>
+                <form method="POST" action="http://www.faveohelpdesk.com/demo/servicedesk/public/service-desk/general/5/sd_problem" accept-charset="UTF-8" enctype="multipart/form-data"><input name="_token" type="hidden" value="5ZoPuolDNMs5dKS1hRUEjCN1WugV2erCPQxFSqc2">
+            </div>
+            <div class="modal-body">
+                <!-- Form  -->
+                <div class="row">
+                    <div class="col-md-12">
+                       <label for="impact">Impact</label>
+                       <textarea class="form-control" id="impact" name="impact" cols="50" rows="10">This is the impact</textarea>
+                       <input name="identifier" type="hidden" value="impact">
+                    </div>
+                    <div class="col-md-12">
+                       <label for="attachment">Attachment</label>
+                       <input name="attachment[]" type="file">
+                    </div>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="close" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+                <input type="submit" class="btn btn-primary" value="Save">
+                </form>
+            </div>
+            <!-- /Form -->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<script type="text/javascript">
+    $(function () {
+        $("#impact,#symptoms").wysihtml5();
+    });
+</script>                <div class="modal fade" id="symptoms5">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Symptoms</h4>
+                <form method="POST" action="http://www.faveohelpdesk.com/demo/servicedesk/public/service-desk/general/5/sd_problem" accept-charset="UTF-8" enctype="multipart/form-data"><input name="_token" type="hidden" value="5ZoPuolDNMs5dKS1hRUEjCN1WugV2erCPQxFSqc2">
+            </div>
+            <div class="modal-body">
+                <!-- Form  -->
+                <div class="row">
+                    <div class="col-md-12">
+                       <label for="symptoms">Symptoms</label>
+                       <textarea class="form-control" id="symptoms" name="symptoms" cols="50" rows="10">dshbcdshjcsdhjc ds cdshcs</textarea>
+                       <input name="identifier" type="hidden" value="symptom">
+                    </div>
+                    <div class="col-md-12">
+                       <label for="attachment">Attachment</label>
+                       <input name="attachment[]" type="file">
+                    </div>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="close" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+                <input type="submit" class="btn btn-primary" value="Save">
+                </form>
+            </div>
+            <!-- /Form -->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+               
+
+<div class="modal fade" id="solution5">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Solution</h4>
+                <form method="POST" action="http://www.faveohelpdesk.com/demo/servicedesk/public/service-desk/general/5/sd_problem" accept-charset="UTF-8" enctype="multipart/form-data"><input name="_token" type="hidden" value="5ZoPuolDNMs5dKS1hRUEjCN1WugV2erCPQxFSqc2">
+            </div>
+            <div class="modal-body">
+                <!-- Form  -->
+                <div class="row">
+                    <div class="col-md-12">
+                       <label for="solution-title">Solution Title</label>
+                       <input class="form-control" name="solution-title" type="text" value="tittlt" id="solution-title">
+                       <input name="identifier" type="hidden" value="solution">
+                    </div>
+                    <div class="col-md-12">
+                       <label for="solution">Solution</label>
+                       <textarea class="form-control" id="solution" name="solution" cols="50" rows="10">dschjds cdsc dsh csdh</textarea>
+                    </div>
+                    
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="close" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+                <input type="submit" class="btn btn-primary" value="Save">
+                </form>
+            </div>
+            <!-- /Form -->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<script type="text/javascript">
+    $(function () {
+        $("#solution").wysihtml5();
+    });
+</script>                
+
+<div class="modal fade" id="delete5">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Delete qwertyui</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Are you sure ?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="close" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+                <a href="http://www.faveohelpdesk.com/demo/servicedesk/public/service-desk/problem/5/delete" class="btn btn-danger">Delete</a>
+            </div>
+        </div>
+    </div>
+</div>  
+
+              <!--<a href="#impact" class="btn btn-sm btn-primary" data-toggle="modal" data-target="#impact5">Impact</a>-->
+<div class="modal fade" id="changenew5">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Change</h4>
+                <form method="POST" action="http://www.faveohelpdesk.com/demo/servicedesk/public/service-desk/problem/change/5" accept-charset="UTF-8" enctype="multipart/form-data"><input name="_token" type="hidden" value="5ZoPuolDNMs5dKS1hRUEjCN1WugV2erCPQxFSqc2">
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="form-group col-md-6 ">
+                        <label for="inputPassword3" class="control-label">Subject </label>
+                        <input class="form-control" name="subject" type="text">
+                        <!--<input type="text" class="form-control" name="subject" id="inputPassword3" placeholder="Subject">-->
+                    </div>
+                    <div class="form-group col-md-6 ">
+                        <label for="inputPassword3" class="control-label">Requester </label>
+                        <select class="form-control" name="requester"><option value="1">demo@admin.com</option><option value="3">vijay.sebastian@ladybirdweb.com</option></select>
+                        <!--<input type="text" class="form-control" name="subject" id="inputPassword3" placeholder="Subject">-->
+                    </div>
+
+
+                    <div class="form-group col-md-6 ">
+                        <label class="control-label">Approval</label>
+                        <select class="form-control" name="approval_id"><option value="1">test</option></select>
+
+                    </div>
+
+                    <div class="form-group col-md-12 ">
+                        <label for="internal_notes" class="control-label" >Description</label>
+                        <textarea class="form-control" name="description" cols="50" rows="10"></textarea>
+                        <!--<textarea class="form-control textarea" name="description" rows="7" id="internal_notes"></textarea>-->
+                    </div>
+                    <div class="form-group col-md-6 ">
+                        <label class=" control-label">Status</label>
+                        <select class="form-control" name="status_id"><option value="1">Open</option><option value="2">Planning</option><option value="3">Awaiting Approval</option><option value="4">Pending Release</option><option value="5">Pending Review</option><option value="6">Closed</option></select>
+                    </div>
+                    <div class="form-group col-md-6 ">
+                        <label class="control-label">Priority</label>
+                        <select class="form-control" name="priority_id"><option value="1">Low</option><option value="2">Medium</option><option value="3">High</option><option value="4">Urgent</option></select>
+
+                    </div> 
+                    <div class="form-group col-md-6 ">
+                        <label class=" control-label">Change type</label>
+                        <select class="form-control" name="change_type_id"><option value="1">Minor</option><option value="2">Standard</option><option value="3">Major</option><option value="4">Emergency</option></select>
+
+                    </div>
+                    <div class="form-group col-md-6 ">
+                        <label class="control-label">Location</label>
+                        <select class="form-control" name="location_id"><option value="1">tests</option></select>
+
+                    </div>
+                    <div class="form-group col-md-6 ">
+                        <label class=" control-label" >Impact Type</label>
+                        <select class="form-control" name="impact_id"><option value="1">Low</option><option value="2">Medium</option><option value="3">High</option></select>
+
+                    </div>
+                    <div class="form-group col-md-6 ">
+                        <label class=" control-label" >Asset</label>
+                        <select class="form-control" multiple="1" name="asset[]"><option value="1">tests</option><option value="2">dcbhsdbcds</option></select>
+
+                    </div>
+                    <div class="form-group col-md-6 ">
+                        <label class=" control-label" >Attachments</label>
+                        <input name="attachments[]" type="file">
+
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="close" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+                <input type="submit" class="btn btn-primary" value="Save">
+                </form>
+            </div>
+            <!-- /Form -->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+                <style>
+    .table{
+        width: 100% !important; 
+    }
+</style>
+
+
+<div class="modal fade" id="changeold5">
+    <form method="POST" action="http://www.faveohelpdesk.com/demo/servicedesk/public/service-desk/problem/change/attach/5" accept-charset="UTF-8" enctype="multipart/form-data"><input name="_token" type="hidden" value="5ZoPuolDNMs5dKS1hRUEjCN1WugV2erCPQxFSqc2">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Changes</h4>
+            </div>
+            <div class="modal-body">
+                <table id="mVR3dQLm" class="table table-bordered">
+    <colgroup>
+                <col class="con0" />
+                <col class="con1" />
+            </colgroup>
+    <thead>
+    <tr>
+                <th align="center" valign="middle" class="head1">#</th>
+                <th align="center" valign="middle" class="head2">Subject</th>
+            </tr>
+    </thead>
+    <tbody>
+        </tbody>
+</table>
+
+    <script type="text/javascript">
+    jQuery(document).ready(function(){
+        // dynamic table
+        oTable = jQuery('#mVR3dQLm').dataTable(
+            { "sPaginationType":"full_numbers",
+"bProcessing":true,
+"sAjaxSource":"http:\/\/www.faveohelpdesk.com\/demo\/servicedesk\/public\/service-desk\/problem\/change",
+"bServerSide":true }
+        );
+    });
+</script>
+
+                <!--                    </div>
+                                </div>-->
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="close" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+                <input type="submit" class="btn btn-primary" value="Save">
+                
+            </div>
+            
+            <!-- /Form -->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+    </form>
+</div><!-- /.modal -->                                
+
+
+<div class="modal fade" id="change-detach5">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Delete Test3</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Are you sure ?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="close" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+                <a href="http://www.faveohelpdesk.com/demo/servicedesk/public/service-desk/problem/5/detach" class="btn btn-danger">Delete</a>
+            </div>
+        </div>
+    </div>
+</div>                
+            </div>
+        </div>
+
+        <div class="row">
+            <section class="content">
+                <div class="col-md-12">
+                    <div class="callout callout-info">
+                        <div class="row">
+
+                            <div class="col-md-3">
+                                <b>Created Date: </b> 
+                                2016-07-12
+                            </div>
+                            <div class="col-md-3">
+                                <b>Status: </b>
+                                Open 
+                            </div>
+                            <div class="col-md-3">
+                                <b>Requester: </b> 
+                                djhcdhs
+                            </div>
+                            <div class="col-md-3">
+                                <b>Assigned:</b> 
+                                Demo@admin.com
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="hide2">
+                    <div class="col-md-6">
+                        <table class="table table-hover">
+                            <tbody>
+
+                                <tr>
+                                    <td><b>Priority:</b></td>   
+                                    <td>Low</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Department:</b></td> 
+                                    <td>Support</td>
+                                </tr>
+
+                                <tr>
+                                    <td><b>Asset</b></td>
+                                    <td>
+                                        
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><b>Organization</b></td>
+                                    <td>
+                                        
+                                    </td>
+                                </tr>
+
+
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-md-6">
+
+                        <table class="table table-hover">
+                            <tbody>    
+                                <tr>
+                                    <td><b>Location:</b></td>
+                                    <td>
+                                        <a href=http://www.faveohelpdesk.com/demo/servicedesk/public/service-desk/location-types/1/show>tests</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><b>Impact:</b></td>  
+                                    <td>Low</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Group:</b></td>
+                                    <td>
+                                        Group A
+                                    </td>
+                                </tr>
+
+
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <!-- Custom Tabs -->
+        <div class="nav-tabs-custom">
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="#tab_1" data-toggle="tab">Tickets</a></li>
+
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane active" id="tab_1">
+                    <div class="box box-primary">
+<!--                        <div class="box-header">
+                            <h3 class="box-title">Condensed Full Width Table</h3>
+                        </div>-->
+                        <!-- /.box-header -->
+                        <div class="box-body">
+                            <table class="table table-condensed">
+                                <tr>
+                                    <th>#</th>
+                                    <th>Ticket Number</th>
+                                    <th>Subject</th>
+                                    <th>Action</th>
+                                </tr>
+                               
+                                                                                                <tr>
+                                    <td>1</td>
+                                    <td>AAEH-0111-0000111</td>
+                                    <td>Re: Autheticated Use...</td>
+                                    <td><a href="http://www.faveohelpdesk.com/demo/servicedesk/public/thread/113" class="btn btn-info">View</a></td>
+                                </tr>
+                                                                                               
+                            </table>
+                        </div>
+                        <!-- /.box-body -->
+                    </div>
+                    <!-- /.box -->
+
+                </div>
+                <!-- /.tab-pane -->
+            </div>
+            <!-- /.tab-content -->
+        </div>
+        <!-- nav-tabs-custom -->
+    </div>
+    <!-- /.col -->
+</div>
+<!-- /.row --><div class="row">
+
+    <div class="col-md-12">
+        <!-- The time line -->
+        <ul class="timeline">
+                        <!--root-cause-->
+            <li class="time-label">
+                <p> &nbsp; </p>
+                <span class="bg-green">
+                    Root Cause 
+                </span> 
+
+            </li>
+
+            <li>
+
+                <i class="fa fa-ambulance bg-purple" title="Root Cause"></i>
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                                                2016-07-14 07:42:05
+                                                <div class="row">
+                            <div class="col-md-offset-11">
+                                <a href="#delete" class="fa fa-remove" data-toggle="modal" data-target="#deleteroot-cause5"> </a><div class="modal fade" id="deleteroot-cause5">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title">Delete Root Cause</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                <div class="col-md-12">
+                                <p>Are you sure ?</p>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" id="close" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+                                <a href="http://www.faveohelpdesk.com/demo/servicedesk/public/service-desk/general/sd_problem:5/root-cause/delete" class="btn btn-danger">Delete</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                &nbsp;<a href="#delete" data-toggle="modal" data-target="#rootcause5"><i class="fa fa-pencil"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-body" style="padding-left:30px;margin-bottom:-20px">
+
+                        This is the root cause
+                    </div>
+                    
+                </div>
+            </li>
+            <!--/root-cause-->
+                                    <!--impact-->
+            <li class="time-label">
+                <p> &nbsp; </p>
+                <span class="bg-green">
+                    Impact
+                </span>     
+            </li>
+            <li>
+
+                <i class="fa fa-anchor bg-purple" title="Impact"></i>
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                                                2016-07-14 07:42:26
+                                                <div class="row">
+                            <div class="col-md-offset-11">
+                                <a href="#delete" class="fa fa-remove" data-toggle="modal" data-target="#deleteimpact5"> </a><div class="modal fade" id="deleteimpact5">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title">Delete impact</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                <div class="col-md-12">
+                                <p>Are you sure ?</p>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" id="close" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+                                <a href="http://www.faveohelpdesk.com/demo/servicedesk/public/service-desk/general/sd_problem:5/impact/delete" class="btn btn-danger">Delete</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                &nbsp;<a href="#delete" data-toggle="modal" data-target="#impact5"><i class="fa fa-pencil"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-body" style="padding-left:30px;margin-bottom:-20px">
+
+                        This is the impact
+                    </div>
+                </div>
+                            </li>
+            <!--/impact-->
+                                    <!--symptoms-->
+            <li class="time-label">
+                <p> &nbsp; </p>
+                <span class="bg-green">
+                    Symptoms
+                </span>     
+            </li>
+            <li>
+
+                <i class="fa fa-battery-0 bg-purple" title="Symptoms"></i>
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                                                2016-07-14 07:33:24
+                                                <div class="row">
+
+                            <div class="col-md-offset-11">
+                                <a href="#delete" class="fa fa-remove" data-toggle="modal" data-target="#deletesymptoms5"> </a><div class="modal fade" id="deletesymptoms5">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title">Delete symptoms</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                <div class="col-md-12">
+                                <p>Are you sure ?</p>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" id="close" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+                                <a href="http://www.faveohelpdesk.com/demo/servicedesk/public/service-desk/general/sd_problem:5/symptoms/delete" class="btn btn-danger">Delete</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                &nbsp;<a href="#delete" data-toggle="modal" data-target="#symptoms5"><i class="fa fa-pencil"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-body" style="padding-left:30px;margin-bottom:-20px">
+
+                        Dshbcdshjcsdhjc ds cdshcs
+                    </div>
+                    
+                </div>
+            </li>
+            <!--/sympton-->
+                                    <!--solution-->
+            <li class="time-label">
+                <p> &nbsp; </p>
+                <span class="bg-green">
+                    Solution
+
+                </span>     
+            </li>
+            <li>
+
+                <i class="fa fa-thumbs-up bg-purple" title="Solution"></i>
+                <div class="timeline-item">
+                    <!--<span  class="time" style="color:#fff;"><i class="fa fa-clock-o"> </i> 25.05.2016 11:01:01</span>-->
+                    <div class="timeline-header">
+                        <h3>Tittlt</h3>
+                                                2016-07-14 07:33:45
+                                                <div class="row">
+                            <div class="col-md-offset-11">
+                                <a href="#delete" class="fa fa-remove" data-toggle="modal" data-target="#deletesolution5"> </a><div class="modal fade" id="deletesolution5">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title">Delete solution</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                <div class="col-md-12">
+                                <p>Are you sure ?</p>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" id="close" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+                                <a href="http://www.faveohelpdesk.com/demo/servicedesk/public/service-desk/general/sd_problem:5/solution/delete" class="btn btn-danger">Delete</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                &nbsp;<a href="#delete" data-toggle="modal" data-target="#solution5"><i class="fa fa-pencil"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-body" style="padding-left:30px;margin-bottom:-20px">
+                        Dschjds cdsc dsh csdh
+
+
+                    </div>
+                                    </div>
+            </li>
+            <!--/solution-->
+                                    <!--solution-->
+            <li class="time-label">
+                <p> &nbsp; </p>
+                <span class="bg-green">
+                    Change
+                </span>     
+            </li>
+            <li>
+
+                <i class="fa fa-refresh bg-purple" title="change"></i>
+                <div class="timeline-item">
+                    <!--<span  class="time" style="color:#fff;"><i class="fa fa-clock-o"> </i> 25.05.2016 11:01:01</span>-->
+
+
+                    <div class="timeline-body" style="padding-left:30px;margin-bottom:-20px">
+                        <a href="http://www.faveohelpdesk.com/demo/servicedesk/public/service-desk/changes/3/show">Test3</a>
+                    </div>
+                    <br><br>
+                    <div class="timeline-footer" style="margin-bottom:-5px">
+                        <ul class="mailbox-attachments clearfix">
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <!--/solution-->
+                    </ul>
+    </div>
+</div>
+
+                </section><!-- /.content -->
+            </div>
+            <footer class="main-footer">
+                <div class="pull-right hidden-xs">
+                    <b>Version</b> Community 1.0.7.9
+                </div>
+                <strong>Copyright &copy; 2017  <a href="" target="_blank">ABC Company</a>.</strong> All right Reserved. Powered by <a href="http://www.faveohelpdesk.com/" target="_blank">Faveo</a>
+            </footer>
+        </div><!-- ./wrapper -->
+
+
+    <script src="http://www.faveohelpdesk.com/demo/servicedesk/public/lb-faveo/js/ajax-jquery.min.js" type="text/javascript"></script>
+    
+    <script src="http://www.faveohelpdesk.com/demo/servicedesk/public/lb-faveo/js/bootstrap-datetimepicker4.7.14.min.js" type="text/javascript"></script>
+    <!-- Bootstrap 3.3.2 JS -->
+    <script src="http://www.faveohelpdesk.com/demo/servicedesk/public/lb-faveo/js/bootstrap.min.js" type="text/javascript"></script>
+    <!-- Slimscroll -->
+    <script src="http://www.faveohelpdesk.com/demo/servicedesk/public/lb-faveo/plugins/slimScroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+    <!-- FastClick -->
+    <script src="http://www.faveohelpdesk.com/demo/servicedesk/public/lb-faveo/plugins/fastclick/fastclick.min.js"  type="text/javascript"></script>
+    <!-- AdminLTE App -->
+    <script src="http://www.faveohelpdesk.com/demo/servicedesk/public/lb-faveo/js/app.min.js" type="text/javascript"></script>
+    <!-- iCheck -->
+    <script src="http://www.faveohelpdesk.com/demo/servicedesk/public/lb-faveo/plugins/iCheck/icheck.min.js" type="text/javascript"></script>
+    <!-- jquery ui -->
+    <script src="http://www.faveohelpdesk.com/demo/servicedesk/public/lb-faveo/js/jquery.ui.js" type="text/javascript"></script>
+    
+    <script src="http://www.faveohelpdesk.com/demo/servicedesk/public/lb-faveo/plugins/datatables/dataTables.bootstrap.js" type="text/javascript"></script>
+    
+    <script src="http://www.faveohelpdesk.com/demo/servicedesk/public/lb-faveo/plugins/datatables/jquery.dataTables.js" type="text/javascript"></script>
+    <!-- Page Script -->
+    <script src="http://www.faveohelpdesk.com/demo/servicedesk/public/lb-faveo/js/jquery.dataTables1.10.10.min.js" type="text/javascript" ></script>
+
+    <script type="text/javascript" src="http://www.faveohelpdesk.com/demo/servicedesk/public/lb-faveo/plugins/datatables/dataTables.bootstrap.js"  type="text/javascript"></script>
+
+    <script src="http://www.faveohelpdesk.com/demo/servicedesk/public/lb-faveo/js/jquery.rating.pack.js" type="text/javascript"></script>
+
+    <script src="http://www.faveohelpdesk.com/demo/servicedesk/public/lb-faveo/plugins/select2/select2.full.min.js" type="text/javascript"></script>
+
+    <script src="http://www.faveohelpdesk.com/demo/servicedesk/public/lb-faveo/plugins/moment/moment.js" type="text/javascript"></script>
+
+    <script>
+        $(document).ready(function () {
+
+        $('.noti_User').click(function () {
+        var id = this.id;
+                var dataString = 'id=' + id;
+                $.ajax
+                ({
+                type: "POST",
+                        url: "http://www.faveohelpdesk.com/demo/servicedesk/public/mark-read" + "/" + id,
+                        data: dataString,
+                        cache: false,
+                        success: function (html)
+                        {
+
+                        }
+                });
+        });
+        });
+                $('#read-all').click(function () {
+
+        var id2 = 1;
+                var dataString = 'id=' + id2;
+                $.ajax
+                ({
+                type: "POST",
+                        url: "http://www.faveohelpdesk.com/demo/servicedesk/public/mark-all-read" + "/" + id2,
+                        data: dataString,
+                        cache: false,
+                        beforeSend: function () {
+                        $('#myDropdown').on('hide.bs.dropdown', function () {
+                        return false;
+                        });
+                                $("#refreshNote").hide();
+                                $("#notification-loader").show();
+                        },
+                        success: function (response) {
+                        $("#refreshNote").load("/demo/servicedesk/public/service-desk/problem/5/show  #refreshNote");
+                                $("#notification-loader").hide();
+                                $('#myDropdown').removeClass('open');
+                        }
+                });
+        });</script>
+    <script>
+                $(function() {
+                // Enable check and uncheck all functionality
+                $(".checkbox-toggle").click(function() {
+                var clicks = $(this).data('clicks');
+                        if (clicks) {
+                //Uncheck all checkboxes
+                $("input[type='checkbox']", ".mailbox-messages").iCheck("uncheck");
+                } else {
+                //Check all checkboxes
+                $("input[type='checkbox']", ".mailbox-messages").iCheck("check");
+                }
+                $(this).data("clicks", !clicks);
+                });
+                        //Handle starring for glyphicon and font awesome
+                        $(".mailbox-star").click(function(e) {
+                e.preventDefault();
+                        //detect type
+                        var $this = $(this).find("a > i");
+                        var glyph = $this.hasClass("glyphicon");
+                        var fa = $this.hasClass("fa");
+                        //Switch states
+                        if (glyph) {
+                $this.toggleClass("glyphicon-star");
+                        $this.toggleClass("glyphicon-star-empty");
+                }
+                if (fa) {
+                $this.toggleClass("fa-star");
+                        $this.toggleClass("fa-star-o");
+                }
+                });
+                });
+</script>
+
+<script src="http://www.faveohelpdesk.com/demo/servicedesk/public/lb-faveo/js/tabby.js" type="text/javascript"></script>
+
+<script src="http://www.faveohelpdesk.com/demo/servicedesk/public/lb-faveo/plugins/filebrowser/plugin.js" type="text/javascript"></script>
+
+<script src="http://www.faveohelpdesk.com/demo/servicedesk/public/lb-faveo/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+            $.ajaxSetup({
+            headers: { 'X-CSRF-Token' : $('meta[name=_token]').attr('content') }
+            });
+</script>
+<script type="text/javascript">
+    function clickDashboard() {
+        window.location = "http://www.faveohelpdesk.com/demo/servicedesk/public/dashboard";
+    }
+</script>
+</body>
+</html>
